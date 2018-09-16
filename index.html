@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" description="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="script.js" defer> </script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <title> Polish Sayings Generator </title>
@@ -12,13 +12,20 @@
   <!-- BEGIN OF WORDPRESS PAGE -->
   <div id="body-sayings">
 
-    <blockquote id="polish-saying" class="polish-saying"></blockquote>
-    <hr>
-    <blockquote id="translated-saying" class="translated-saying"></blockquote>
-    <button id="new-saying-button" class="new-saying-button"> New saying </button>
+    <div class="container-btn-sayings">
+      <div class="container-sayings">
+        <blockquote id="polish-saying" class="saying"></blockquote>
+        <hr class="bar">
+        <label id="label-equivalent" class="label"> English equivalent: </label>
+        <blockquote id="equivalent-saying" class="saying"></blockquote>
+        <label id="label-translation" class="label"> Literal translation: </label>
+        <blockquote id="translated-saying" class="saying"></blockquote>
+      </div>
+      <button id="new-saying-button" class="btn"> New saying </button>
+    </div>
 
   </div>
-  <!-- END OF WORDPRESS PAGE -->
+<!-- END OF WORDPRESS PAGE -->
 
 </body>
 <footer>
