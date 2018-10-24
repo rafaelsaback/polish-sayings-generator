@@ -1,4 +1,6 @@
+script.js
+style.css
 *.map
 .sass-cache
 .eslintrc.js
-package.json
+node_modules/
