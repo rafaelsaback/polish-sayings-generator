@@ -1,7 +1,7 @@
 {
   "name": "polish-sayings-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A generator of Polish sayings with translated items to English and Portuguese.",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/rafaelsaback/polish-sayings-generator.git"
   },
-  "author": "",
+  "author": "Rafael Saback",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rafaelsaback/polish-sayings-generator/issues"
