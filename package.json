@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
     "live-server": "live-server --port=3000 --open=./dist",
-    "start": "npm-run-all -p webpack live-server"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
+    "webpack-dev-server": "^3.1.10"
   }
 
 }
