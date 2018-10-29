@@ -2,7 +2,7 @@
   "name": "polish-sayings-generator",
   "version": "1.0.0",
   "description": "A generator of Polish sayings with translated items to English and Portuguese.",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack-dev-server"
