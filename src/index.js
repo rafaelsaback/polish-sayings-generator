@@ -1,5 +1,5 @@
 import sayings from 'sayings.json';
-import 'style.css';
+import 'style.scss';
 
 const polishSaying = document.querySelector('#polish-saying');
 const equivalentSaying = document.querySelector('#equivalent-saying');
