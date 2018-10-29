@@ -14,6 +14,13 @@ module.exports = {
       port: 3000,
       open: true
   },
+  resolve: {
+      extensions: [".tsx", ".ts", ".js"],
+      modules: [
+          path.resolve(__dirname, 'src'),
+          'node_modules'
+      ]
+  },
   module: {
     rules: [
       {
@@ -21,8 +28,5 @@ module.exports = {
         use:['style-loader','css-loader', 'sass-loader']
       }
     ]
-  },
-  resolve: {
-    extensions: [".tsx", ".ts", ".js"]
   },
 };
