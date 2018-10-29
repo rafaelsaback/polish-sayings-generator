@@ -6,6 +6,7 @@ html {
 }
 
 #body-sayings {
+  line-height: 1.2;
 
   .container-btn-sayings {
     margin: auto;
@@ -22,6 +23,7 @@ html {
 
   .bar {
     width: 90%;
+    margin: 20px auto;
   }
 
   .label {
@@ -34,8 +36,10 @@ html {
     font-style: italic;
     font-size: 32px;
     text-align: center;
-    margin-top: 40px auto 40px;
-    min-height: 85px;;
+    margin: 40px auto 40px;
+    padding: 0px;
+    min-height: 85px;
+    border-left: none;
   }
 
 .btn {
