@@ -1,4 +1,4 @@
-path = require("path");
+const path = require('path');
 
 module.exports = {
     mode: 'development',
@@ -7,19 +7,12 @@ module.exports = {
         filename: 'bundle.js',
         path: path.join(__dirname, 'dist')
     },
-    devtool: "source-map",
+    devtool: 'source-map',
     devServer: {
         inline: true,
         contentBase: path.join(__dirname, 'dist'),
         port: 3000,
         open: true
-    },
-    resolve: {
-        extensions: [".tsx", ".ts", ".js"],
-        modules: [
-            path.resolve(__dirname, 'src'),
-            'node_modules'
-        ]
     },
     module: {
         rules: [
@@ -27,6 +20,13 @@ module.exports = {
                 test:/\.css$/,
                 use:['style-loader','css-loader']
             }
+        ]
+    },
+    resolve: {
+        extensions: ['tsx', '.ts', '.js'],
+        modules: [
+            path.resolve(__dirname, 'src'),
+            'node_modules'
         ]
     },
 };
