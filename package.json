@@ -4,7 +4,7 @@
   "description": "A generator of Polish sayings with translated items to English and Portuguese.",
   "main": "script.js",
   "scripts": {
-    "webpack": "webpack",
+    "build": "webpack --mode=production",
     "start": "webpack-dev-server"
   },
   "repository": {
